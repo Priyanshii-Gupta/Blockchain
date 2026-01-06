@@ -19,8 +19,7 @@ The blocks connect because each one saves the hash of the previous block. So if 
 ## add_block(data)
 
 This function creates and appends a new block to the blockchain.
-
-**How it works:**
+How it works:
 1. Retrieves the last block in the chain
 2. Creates a new Block with:
    - Index: current chain length
@@ -42,11 +41,11 @@ If someone tampers with any block's data, the stored hash won't match the recalc
 The current code includes a `nonce` field in the Block structure but does not implement actual mining.
 
 
-## What I Used
-- Python (VS code)
-- hashlib for SHA256
--time module  
+## Tools used
+Python (VS code)
+hashlib for SHA256
+time module  
 
 ## References
-- Youtube tutorials on blockchain in python.
-- YouTube tutorials on blockchain basics.
+Youtube tutorials on blockchain in python.
+YouTube tutorials on blockchain basics.
